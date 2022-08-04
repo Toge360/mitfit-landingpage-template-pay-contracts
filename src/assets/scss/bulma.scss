@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+// Set your brand colors
+$scheme-main: #ffffff;
+$scheme-invert: #000000;
+$widescreen-enabled: true; // no widescreen support
+$fullhd-enabled: true; // fullHD support
+
+// Update Bulma's global variables
+$family-sans-serif: "IBM Plex Sans", sans-serif;
+$primary: #e3022e;
+$primary-dark: darken($primary, 10%);
+// https://falkus.co/2017/05/using-lighten-and-darken-in-sass/
+$primary-hover: darken($primary, 2%);
+$white: #ffffff;
+$black: #000000;
+$dark: #191919;
+$gray: #888888;
+$light: #f3f3f3;
+$link: $primary-dark;
+$button-focus-border-color: $primary;
+$button-border-width: 1px;
+$link-active: $primary-dark;
+$weight-bold: 700;
+
+// Update some of Bulma's component variables
+
+// Body
+$body-font-size: 1em;
+
+// Font sizes
+$size-1: 3rem;
+$size-2: 2.5rem;
+$size-3: 2rem;
+$size-4: 1.5rem;
+$size-5: 1.25rem;
+$size-6: 1rem;
+$size-7: 0.75rem;
+
+// Navbar
+$navbar-background-color: $scheme-main;
+$navbar-box-shadow-size: 0 0 0 0;
+$navbar-box-shadow-color: $dark;
+$navbar-height: 3.25rem;
+$navbar-item-color: $scheme-invert;
+$navbar-item-hover-color: $primary;
+$navbar-item-hover-background-color: $navbar-background-color;
+$navbar-item-active-color: $primary;
+$navbar-item-active-background-color: $scheme-main;
+$navbar-burger-color: $navbar-item-color;
+$navbar-dropdown-background-color: $scheme-main;
+$navbar-dropdown-border-top: 2px solid $white;
+$navbar-dropdown-offset: -4px;
+$navbar-dropdown-arrow: $navbar-item-color;
+
+// Card
+$card-background-color: $white;
+$card-header-background-color: $primary;
+$card-header-color: $scheme-main;
+$card-header-padding: 0.75rem 1rem;
+$card-shadow: 0 0.5em 1em -0.125em rgba($dark, 0.1),
+  0 0px 0 1px rgba($dark, 0.02);
+$card-header-shadow: 0 0.125em 0.25em rgba($scheme-invert, 0.1);
+$card-header-weight: $weight-bold;
+$card-radius: 0.25rem;
+
+$body-background-color: $scheme-main;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$footer-padding: 20px;
+
+// Footer
+$footer-background-color: $scheme-main;
+$footer-color: false;
+$footer-padding: 3rem 1.5rem 6rem;
+
+// Import only what you need from Bulma
+@import "../../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../../node_modules/bulma/sass/base/_all.sass";
+@import "../../../node_modules/bulma/sass/elements/_all.sass";
+@import "../../../node_modules/bulma/sass/helpers/_all.sass";
+@import "../../../node_modules/bulma/sass/elements/container.sass";
+@import "../../../node_modules/bulma/sass/elements/title.sass";
+@import "../../../node_modules/bulma/sass/form/_all.sass";
+@import "../../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../../node_modules/bulma/sass/components/card.sass";
+@import "../../../node_modules/bulma/sass/components/menu.sass";
+@import "../../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../../node_modules/bulma/sass/layout/section.sass";
+@import "../../../node_modules/bulma/sass/layout/footer.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+
+// Import all other used scss
+@import "./extensions/_all";

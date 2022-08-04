@@ -1,0 +1,54 @@
+.wysiwyg-text {
+  display: block;
+}
+
+.content a {
+  color: $white;
+  text-decoration: underline;
+}
+
+.content h1 {
+  font-size: $size-1;
+}
+
+.content h2 {
+  font-size: $size-2;
+}
+
+.content h3 {
+  font-size: $size-3;
+}
+
+.content h4 {
+  font-size: $size-4;
+}
+
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: $size-2;
+  }
+  .content h2 {
+    font-size: $size-3;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .content h1 {
+    font-size: $size-3;
+  }
+  .content h2 {
+    font-size: $size-3;
+  }
+}
+
+.content.is-large {
+  font-size: 1.5rem;
+}
+
+.content.is-medium {
+  font-size: 1.2rem;
+}
+
+.content.is-small {
+  font-size: 0.8rem;
+}

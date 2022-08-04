@@ -15,11 +15,11 @@
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
       </a>
       <span class="navbar-item">
-      <a class="button is-primary py-5 px-4">
-        <strong class="p-4">Kostenlos Testen<br>
-          Monatlich kündbar</strong>
-      </a>
-    </span>
+        <a class="button is-primary py-5 px-4">
+          <strong class="p-4">Kostenlos Testen<br>
+            Monatlich kündbar</strong>
+        </a>
+      </span>
     </div>
   </nav>
   <section class="hero  is-fullheight"
@@ -28,9 +28,9 @@
       <div class="has-text-centered is-size-2 has-text-weight-bold">
         <p class=" has-text-white">
           2 WOCHEN KOSTENLOS TESTEN!</p>
-          <p class=" has-text-white">
+        <p class=" has-text-white">
           KEINE VERTRAGSBINDUNG!</p>
-          <p class=" has-text-white">
+        <p class=" has-text-white">
           TRAINING FÜR 29,90€</p>
 
         </p>
@@ -81,7 +81,24 @@
         </div>
       </div>
     </section>
-
+    <section>
+      <div id="mfpay-contracts" campaign="5ac2f959-addf-1af8-2a71-07ec75db340a"
+        contract="1CFFB532E6B011EA9CDEF244EEB93211"></div>
+      <script>
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.async = true;
+        g.defer = true;
+        g.src = "https://contracts.mitfit.de/embed.js";
+        g.onload = function () {
+          var instance = new init();
+          instance.init();
+        };
+        s.parentNode.insertBefore(g, s);
+      </script>
+    </section>
     <section class="section has-text-white">
       <div class="columns is-multiline">
         <div class="column is-4-desktop is-12-mobile">

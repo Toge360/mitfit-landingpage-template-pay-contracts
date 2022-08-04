@@ -28,10 +28,20 @@
   height: 100px;
 }
 
+.navbar-brand {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .content h1 {
     font-size: $size-2;
   }
+
+  .navbar.is-fixed-top {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: auto;
+  }
+
   .content h2 {
     font-size: $size-3;
   }

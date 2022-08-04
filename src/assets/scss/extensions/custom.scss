@@ -1,8 +1,6 @@
 /* we can use here all scss vars from bulma.scss */
 body {
-  background-color: $primary;
+  background-color: $dark;
+  color: white !important
 }
 
-p {
-  color: yellow;
-}

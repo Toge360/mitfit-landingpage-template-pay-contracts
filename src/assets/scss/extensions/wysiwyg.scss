@@ -23,6 +23,11 @@
   font-size: $size-4;
 }
 
+.navbar.is-fixed-top {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100px;
+}
+
 @media screen and (max-width: 768px) {
   .content h1 {
     font-size: $size-2;

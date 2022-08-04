@@ -8,13 +8,13 @@ $fullhd-enabled: true; // fullHD support
 
 // Update Bulma's global variables
 $family-sans-serif: "IBM Plex Sans", sans-serif;
-$primary: #e3022e;
+$primary: #1C89DA;
 $primary-dark: darken($primary, 10%);
 // https://falkus.co/2017/05/using-lighten-and-darken-in-sass/
 $primary-hover: darken($primary, 2%);
 $white: #ffffff;
 $black: #000000;
-$dark: #191919;
+$dark: #000000;
 $gray: #888888;
 $light: #f3f3f3;
 $link: $primary-dark;

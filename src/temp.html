@@ -1,14 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
+
 <body>
-  <header><h1><%= htmlWebpackPlugin.options.title %></h1></header>
-  <p>This is cool!</p>
-  <img src="media/apfel.jpg" class="image is-48x48" alt="apfel" title="Lorem" />
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+         
+            <a class="button is-primary py-5 px-4">
+              <strong class="p-4">Kostenlos Testen<br>
+                Monatlich kündbar</strong>
+            </a>
+
+        
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero  is-fullheight" style="background-image: url(https://milon.com/wp-content/uploads/2021/10/startseite-2020-inkl-ubersetzung-int-milon-com-4.jpg); background-size: cover;" >
+    <div class="hero-body" >
+      <div class="">
+        <p class="title">
+          Fullheight hero
+        </p>
+        <p class="subtitle">
+          Fullheight subtitle
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="container has-text-centered">
+    <section class="section has-text-white">
+      <p class="is-size-5">MACH DICH STARK! OHNE VERPFICHTUNGEN!</p>
+      <h1 class="is-size-2 has-text-weight-bold">UNSER SOMMERANGEBOT</h1>
+      <p class="">
+        Ob fit für den Strand, stark und ausdauernd für Deine Hobbies oder viel Energie für die Familie - wir
+        unterstützen Dich bei Deinen ganz individuellen Fitness-Zielen. Denn eins steht fest: Deine Muskeln kennen
+        keinen Urlaub!
+      </p>
+    </section>
+    <section class="section has-text-white">
+      <div class="columns is-multiline">
+        <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
+          <figure class="image is-96x96 px-3">
+            <img src="https://cdn.pixabay.com/photo/2018/02/17/20/09/dumbbell-3160788_1280.png">
+          </figure>
+          <p class="has-text-weight-bold is-size-4">2 WOCHEN KOSTENLOS TESTEN</p>
+          <p class="px-6"> Trainiere & teste 2 Wochen kostenlos!
+            Fit zum besten Preis mit
+            Deinem Ihr Club.</p>
+        </div>
+        <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
+          <figure class="image is-96x96 px-3">
+            <img src="https://cdn.pixabay.com/photo/2018/02/17/20/09/dumbbell-3160788_1280.png">
+          </figure>
+          <p class="has-text-weight-bold is-size-4">KEINE VERTRAGSBINDUNG</p>
+          <p class="px-6">Deine MItgliedschaft ist jederzeit
+            kündbar. So trainierst du ganz
+            ohne Bindung.</p>
+        </div>
+        <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
+          <figure class="image is-96x96 px-3">
+            <img src="https://cdn.pixabay.com/photo/2018/02/17/20/09/dumbbell-3160788_1280.png">
+          </figure>
+          <p class="has-text-weight-bold is-size-4">NUR 29,90 €</p>
+          <p class="px-6">Trainiere für nur 29,90€ und
+            spare dir die einmalige
+            Startgebühr.</p>
+        </div>
+        <div class="column is-12 my-6">
+          <button class="button is-primary">Jetzt Angebot sichern!</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section has-text-white">
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <figure class="image">
+            <img src="https://milon.com/wp-content/uploads/2021/10/startseite-2020-inkl-ubersetzung-int-milon-com-2.jpg">
+          </figure>
+        </div>
+        <div class="column is-4">
+          <figure class="image">
+            <img src="https://milon.com/wp-content/uploads/2021/10/startseite-2020-inkl-ubersetzung-int-milon-com.jpg">
+          </figure>
+        </div>
+        <div class="column is-4">
+          <figure class="image">
+            <img src="https://milon.com/wp-content/uploads/2021/10/startseite-2020-inkl-ubersetzung-int-milon-com-2.jpg">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="hero is-danger is-large" style="background-image:url(https://milon.com/wp-content/uploads/2020/02/startseite-2020-milon-com-12.jpg); background-size: cover;">
+    <div class="hero-body">
+    </div>
+  </section>
 </body>
+
 </html>

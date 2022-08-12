@@ -6,21 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= htmlWebpackPlugin.options.title %></title>
+
+  <style>
+
+    .has-background-primary-custom,
+    .is-primary {
+      background-color: #2888F1 !important;
+    }
+    
+    .has-text-primary {
+      color: #2888F1 !important;
+    }
+    
+    .has-background-secondary,
+    .is-secondary {
+      background-color: #091F36 !important;
+    }
+    
+    .has-text-secondary {
+      color: #091F36 !important;
+    }
+    
+    .button.is-primary {
+      border-color: #2888F1 !important;
+    }
+    </style>
 </head>
 
-<body>
+<body class="has-background-secondary">
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
     <div class="navbar-brand is-justify-content-space-between">
       <a class="navbar-item" href="https://bulma.io">
         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
       </a>
       <span class="navbar-item">
-        <a class="button is-primary py-5 px-4">
+        <a class="button action-button is-primary py-5 px-4">
           <strong class="p-4">Kostenlos Testen<br>
             Monatlich kündbar</strong>
         </a>
       </span>
     </div>
+  </div>
   </nav>
   <section class="hero  is-fullheight"
     style="background-image: url(https://milon.com/wp-content/uploads/2021/10/startseite-2020-inkl-ubersetzung-int-milon-com-4.jpg); background-size: cover;">
@@ -37,8 +64,9 @@
       </div>
     </div>
   </section>
-  <div class="container has-text-centered">
-    <section class="section has-text-white">
+  
+    <section class="section has-text-white has-background-secondary">
+      <div class="container has-text-centered">
       <p class="is-size-5">MACH DICH STARK! OHNE VERPFICHTUNGEN!</p>
       <h1 class="is-size-2 has-text-weight-bold">UNSER SOMMERANGEBOT</h1>
       <p class="">
@@ -46,44 +74,65 @@
         unterstützen Dich bei Deinen ganz individuellen Fitness-Zielen. Denn eins steht fest: Deine Muskeln kennen
         keinen Urlaub!
       </p>
+      </div>
     </section>
-    <section class="section has-text-white">
+    <section class="section has-text-white has-background-secondary">
+      <div class="container has-text-centered">
       <div class="columns is-multiline">
+
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
-          <figure class="image is-96x96 px-3">
-            <img src="https://cdn.pixabay.com/photo/2018/02/17/20/09/dumbbell-3160788_1280.png">
-          </figure>
+
+          <div class="custom-icon has-text-centered has-background-primary-custom p-3 mb-4">
+            <span class="icon is-large">
+              <i class="mdi mdi-36px mdi-bell"></i>
+            </span>
+          </div>
+
           <p class="has-text-weight-bold is-size-4">2 WOCHEN KOSTENLOS TESTEN</p>
           <p class="px-6"> Trainiere & teste 2 Wochen kostenlos!
             Fit zum besten Preis mit
             Deinem Ihr Club.</p>
         </div>
+
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
-          <figure class="image is-96x96 px-3">
-            <img src="https://cdn.pixabay.com/photo/2018/02/17/20/09/dumbbell-3160788_1280.png">
-          </figure>
+          
+          <div class="custom-icon has-text-centered has-background-primary-custom p-3 mb-4">
+            <span class="icon is-large">
+              <i class="mdi mdi-36px mdi-bell"></i>
+            </span>
+          </div>
+
           <p class="has-text-weight-bold is-size-4">KEINE VERTRAGSBINDUNG</p>
           <p class="px-6">Deine MItgliedschaft ist jederzeit
             kündbar. So trainierst du ganz
             ohne Bindung.</p>
         </div>
+
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
-          <figure class="image is-96x96 px-3">
-            <img src="https://cdn.pixabay.com/photo/2018/02/17/20/09/dumbbell-3160788_1280.png">
-          </figure>
+          
+          <div class="custom-icon has-text-centered has-background-primary-custom p-3 mb-4">
+            <span class="icon is-large">
+              <i class="mdi mdi-36px mdi-bell"></i>
+            </span>
+          </div>
+
           <p class="has-text-weight-bold is-size-4">NUR 29,90 €</p>
           <p class="px-6">Trainiere für nur 29,90€ und
             spare dir die einmalige
             Startgebühr.</p>
         </div>
+
         <div class="column is-12 my-6">
           <button class="button is-primary">Jetzt Angebot sichern!</button>
         </div>
       </div>
+      </div>
     </section>
-    <section>
+
+    <section id="plugin">
+
       <div id="mfpay-contracts" campaign="5ac2f959-addf-1af8-2a71-07ec75db340a"
-        contract="1CFFB532E6B011EA9CDEF244EEB93211"></div>
+        contract="1CFFB532E6B011EA9CDEF244EEB93211" footer="false"></div>
       <script>
         var d = document,
           g = d.createElement("script"),
@@ -98,8 +147,11 @@
         };
         s.parentNode.insertBefore(g, s);
       </script>
+
     </section>
-    <section class="section has-text-white">
+
+    <section class="section has-text-white has-background-secondary" style="position:relative;top:-2px">
+      <div class="container has-text-centered">
       <div class="columns is-multiline">
         <div class="column is-4-desktop is-12-mobile">
           <figure class="image">
@@ -119,10 +171,12 @@
           </figure>
         </div>
         <div class="column is-12 my-6">
-          <button class="button is-primary">Jetzt Angebot sichern!</button>
+          <button class="button is-primary action-button">Jetzt Angebot sichern!</button>
         </div>
       </div>
+      </div>
     </section>
+
   </div>
   <section class="hero is-danger is-large"
     style="background-image:url(https://milon.com/wp-content/uploads/2020/02/startseite-2020-milon-com-12.jpg); background-size: cover;">

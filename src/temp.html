@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= htmlWebpackPlugin.options.title %></title>
+  <title>2 Wochen kostenlos testen!</title>
 
   <style>
 
@@ -34,61 +34,51 @@
 </head>
 
 <body class="has-background-secondary">
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  
+  <div id="logo-bar" class="py-4">
     <div class="container">
-    <div class="navbar-brand is-justify-content-space-between">
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-      </a>
-      <span class="navbar-item">
-        <a class="button action-button is-primary py-5 px-4">
-          <strong class="p-4">Kostenlos Testen<br>
-            Monatlich kündbar</strong>
-        </a>
-      </span>
+      <img id="logo" src="./media/logo_bulma.png" width="200">
     </div>
   </div>
-  </nav>
-  <section class="hero  is-fullheight"
-    style="background-image: url(https://milon.com/wp-content/uploads/2021/10/startseite-2020-inkl-ubersetzung-int-milon-com-4.jpg); background-size: cover;">
-    <div class="hero-body is-flex is-align-items-center is-justify-content-center">
-      <div class="has-text-centered is-size-2 has-text-weight-bold">
-        <p class=" has-text-white">
-          2 WOCHEN KOSTENLOS TESTEN!</p>
-        <p class=" has-text-white">
-          KEINE VERTRAGSBINDUNG!</p>
-        <p class=" has-text-white">
-          TRAINING FÜR 29,90€</p>
 
-        </p>
+
+  <section class="hero  is-fullheight"
+    style="background-image: url(./media/hero_01.jpg); background-size: cover;">
+    <div class="hero-body is-flex is-align-items-center is-justify-content-center">
+      <div class="has-text-centered is-size-2 has-text-weight-bold has-text-white">
+        <p class="is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-weight-bold is-uppercase has-text-shadow">2 Wochen kostenlos testen!</p>
+        <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile has-text-weight-bold is-uppercase has-text-shadow">Keine Vertragsbindung!</p>
+        <p class="is-size-3-desktop is-size-4-tablet is-size-5-mobile has-text-weight-bold is-uppercase has-text-shadow">Training für 29,90 €</p>
+        <a class="button action-button is-primary is-large mt-4">ANGEBOT SICHERN</a>
       </div>
     </div>
   </section>
   
     <section class="section has-text-white has-background-secondary">
-      <div class="container has-text-centered">
-      <p class="is-size-5">MACH DICH STARK! OHNE VERPFICHTUNGEN!</p>
-      <h1 class="is-size-2 has-text-weight-bold">UNSER SOMMERANGEBOT</h1>
-      <p class="">
-        Ob fit für den Strand, stark und ausdauernd für Deine Hobbies oder viel Energie für die Familie - wir
-        unterstützen Dich bei Deinen ganz individuellen Fitness-Zielen. Denn eins steht fest: Deine Muskeln kennen
-        keinen Urlaub!
-      </p>
+      <div class="container is-max-desktop has-text-centered">
+        <p class="is-size-5 has-text-weight-bold is-uppercase">Mach dich stark - ohne Verpflichtungen!</p>
+        <h1 class="is-size-1-desktop is-size-2-tablet is-size-3-mobile has-text-weight-bold is-uppercase">User Sommerangebot</h1>
+        <p class="is-size-4-desktop is-size-4-tablet is-size-5-mobile">
+          Ob fit für den Strand, stark und ausdauernd für Deine Hobbies oder viel Energie für die Familie - wir
+          unterstützen Dich bei Deinen ganz individuellen Fitness-Zielen. Denn eins steht fest: Deine Muskeln kennen
+          keinen Urlaub!
+        </p>
       </div>
     </section>
+
     <section class="section has-text-white has-background-secondary">
       <div class="container has-text-centered">
       <div class="columns is-multiline">
 
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
 
-          <div class="custom-icon has-text-centered has-background-primary-custom p-3 mb-4">
+          <div class="custom-icon has-text-centered p-3 mb-4">
             <span class="icon is-large">
-              <i class="mdi mdi-36px mdi-bell"></i>
+              <i class="has-text-primary mdi mdi-48px mdi-alert-octagram xtra-big"></i>
             </span>
           </div>
 
-          <p class="has-text-weight-bold is-size-4">2 WOCHEN KOSTENLOS TESTEN</p>
+          <p class="has-text-weight-bold is-size-4-desktop is-size-4-tablet is-size-5-mobile">2 WOCHEN KOSTENLOS TESTEN</p>
           <p class="px-6"> Trainiere & teste 2 Wochen kostenlos!
             Fit zum besten Preis mit
             Deinem Ihr Club.</p>
@@ -96,13 +86,13 @@
 
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
           
-          <div class="custom-icon has-text-centered has-background-primary-custom p-3 mb-4">
+          <div class="custom-icon has-text-centered p-3 mb-4">
             <span class="icon is-large">
-              <i class="mdi mdi-36px mdi-bell"></i>
+              <i class="has-text-primary mdi mdi-48px mdi-emoticon xtra-big"></i>
             </span>
           </div>
 
-          <p class="has-text-weight-bold is-size-4">KEINE VERTRAGSBINDUNG</p>
+          <p class="has-text-weight-bold is-size-4-desktop is-size-4-tablet is-size-5-mobile">KEINE VERTRAGSBINDUNG</p>
           <p class="px-6">Deine MItgliedschaft ist jederzeit
             kündbar. So trainierst du ganz
             ohne Bindung.</p>
@@ -110,20 +100,20 @@
 
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
           
-          <div class="custom-icon has-text-centered has-background-primary-custom p-3 mb-4">
+          <div class="custom-icon has-text-centered p-3 mb-4">
             <span class="icon is-large">
-              <i class="mdi mdi-36px mdi-bell"></i>
+              <i class="has-text-primary mdi mdi-48px mdi-piggy-bank xtra-big"></i>
             </span>
           </div>
 
-          <p class="has-text-weight-bold is-size-4">NUR 29,90 €</p>
+          <p class="has-text-weight-bold is-size-4-desktop is-size-4-tablet is-size-5-mobile">NUR 29,90 €</p>
           <p class="px-6">Trainiere für nur 29,90€ und
             spare dir die einmalige
             Startgebühr.</p>
         </div>
 
         <div class="column is-12 my-6">
-          <button class="button is-primary">Jetzt Angebot sichern!</button>
+          <a class="button action-button is-primary is-large mt-4">ANGEBOT SICHERN</a>
         </div>
       </div>
       </div>
@@ -171,7 +161,7 @@
           </figure>
         </div>
         <div class="column is-12 my-6">
-          <button class="button is-primary action-button">Jetzt Angebot sichern!</button>
+          <a class="button action-button is-primary is-large mt-4">ANGEBOT SICHERN</a>
         </div>
       </div>
       </div>
@@ -183,6 +173,17 @@
     <div class="hero-body">
     </div>
   </section>
+
+  <footer class="footer has-background-black py-6">
+    <div class="content has-text-centered">
+      <p>
+        <a href="#" class="is-size-6 has-text-weight-bold is-uppercase footer-link mx-2">Impressum</a>
+        <a href="#" class="is-size-6 has-text-weight-bold is-uppercase footer-link mx-2">AGB</a>
+        <a href="#" class="is-size-6 has-text-weight-bold is-uppercase footer-link mx-2">Datenschutz</a>
+        <a href="#" class="is-size-6 has-text-weight-bold is-uppercase footer-link mx-2">Vertrag kündigen</a>
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>

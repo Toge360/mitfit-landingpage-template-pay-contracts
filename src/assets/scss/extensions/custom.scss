@@ -4,7 +4,28 @@ body {
   color: white !important
 }
 
+#logo-bar {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  background-color:rgba(0,0,0,.5);
+  z-index:999;
+}
+
 .custom-icon {
   border-radius:100%;
+}
+
+.xtra-big {
+  scale: 1.5;
+}
+
+a.footer-link {
+  text-decoration: none !important;
+}
+
+.has-text-shadow {
+  text-shadow: 1px 1px 5px rgba(0,0,0,.5);
 }
 

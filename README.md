@@ -6,7 +6,7 @@
 
 ### MDI Icons
 
-[https://pictogrammers.github.io/@mdi/font/5.3.45/]https://pictogrammers.github.io/@mdi/font/5.3.45/
+https://pictogrammers.github.io/@mdi/font/5.3.45/
 
 ## Commands
 

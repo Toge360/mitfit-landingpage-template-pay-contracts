@@ -1,8 +1,7 @@
-# Webpack 5, Babel, Bulma Setup 2022
+# mitfitPAY (Contracts) Template für Landingpages
 
-New 2022er setup to build apps with webpack + babel
 
-(C) 2022 Tobias Gerlach, tobias@gerlach360.de
+(C) 2022 Alex Mommertz, alex@studios-in-motion.de & Tobias Gerlach, tobias@studios-in-motion.de
 
 ## Commands
 

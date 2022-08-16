@@ -11,24 +11,35 @@
 
     .has-background-primary-custom,
     .is-primary {
-      background-color: #2888F1 !important;
+      background-color: #bb28f1 !important;
     }
     
     .has-text-primary {
-      color: #2888F1 !important;
+      color: #bb28f1 !important;
     }
     
     .has-background-secondary,
     .is-secondary {
-      background-color: #091F36 !important;
+      background-color: #350936 !important;
     }
     
     .has-text-secondary {
-      color: #091F36 !important;
+      color: #350936 !important;
     }
     
     .button.is-primary {
-      border-color: #2888F1 !important;
+      border-color: #bb28f1 !important;
+    }
+
+    .custom-icon path,
+    .custom-icon polygon,
+    .custom-icon rect {
+      fill: #bb28f1;
+    }
+
+    .custom-icon circle {
+      stroke: #bb28f1;
+      stroke-width: 1;
     }
     </style>
 </head>
@@ -72,11 +83,7 @@
 
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
 
-          <div class="custom-icon has-text-centered p-3 mb-4">
-            <span class="icon is-large">
-              <i class="has-text-primary mdi mdi-48px mdi-alert-octagram xtra-big"></i>
-            </span>
-          </div>
+          <div id="icon1" class="custom-icon mb-4"></div>
 
           <p class="has-text-weight-bold is-size-4-desktop is-size-4-tablet is-size-5-mobile">2 WOCHEN KOSTENLOS TESTEN</p>
           <p class="px-6"> Trainiere & teste 2 Wochen kostenlos!
@@ -86,11 +93,7 @@
 
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
           
-          <div class="custom-icon has-text-centered p-3 mb-4">
-            <span class="icon is-large">
-              <i class="has-text-primary mdi mdi-48px mdi-emoticon xtra-big"></i>
-            </span>
-          </div>
+          <div id="icon2" class="custom-icon mb-4"></div>
 
           <p class="has-text-weight-bold is-size-4-desktop is-size-4-tablet is-size-5-mobile">KEINE VERTRAGSBINDUNG</p>
           <p class="px-6">Deine MItgliedschaft ist jederzeit
@@ -100,11 +103,7 @@
 
         <div class="column is-4 is-flex is-align-items-center is-flex-direction-column">
           
-          <div class="custom-icon has-text-centered p-3 mb-4">
-            <span class="icon is-large">
-              <i class="has-text-primary mdi mdi-48px mdi-piggy-bank xtra-big"></i>
-            </span>
-          </div>
+          <div id="icon3" class="custom-icon mb-4"></div>
 
           <p class="has-text-weight-bold is-size-4-desktop is-size-4-tablet is-size-5-mobile">NUR 29,90 €</p>
           <p class="px-6">Trainiere für nur 29,90€ und
